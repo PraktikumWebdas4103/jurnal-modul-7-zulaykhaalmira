@@ -28,6 +28,7 @@
 	</table>
 	<table border="1">
 		<tr>
+			<td>NO</td>
 			<td>NAMA</td>
 			<td>NIM</td>
 			<td>Aksi</td>
@@ -41,6 +42,7 @@
 			<td><?php echo $no ?></td>
 			<td><?php echo $data['nama'] ?></td>
 			<td><?php echo $data['nim'] ?></td>
+		
 		</tr>
 	</table>
 		<?php $no++; } ?>
